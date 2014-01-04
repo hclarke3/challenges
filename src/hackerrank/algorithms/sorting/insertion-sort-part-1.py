@@ -22,7 +22,10 @@ def insertionSort(ar):
             i = i - 1
         
         ret = printar(ar, ret)
-    
+
+    if (tail < ar[1]):
+        ar[0] = tail
+
     ret = printar(ar, ret)     
     print ret
 
